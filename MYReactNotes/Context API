@@ -1,1 +1,12 @@
 Context API is used to replacement of Prop Drilling.
+
+In react Library we have the User context Library
+
+createContext is from react Library.
+
+ex:
+import {createContext} from 'react'
+
+const themeContext=createContext();  //we can name any thing for our context object.
+
+we have two properties or two things in context api one is producer and another is consumer.
